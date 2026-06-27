@@ -1,0 +1,15 @@
+{
+  "name": "longtask",
+  "description": "Super high-volume 작업을 Agent에게 체계적으로 위임하는 longtask 플러그인 배포처.",
+  "owner": {
+    "name": "eric",
+    "email": "duddn5906@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "longtask",
+      "source": ".",
+      "description": "Super high-volume 작업을 Agent에게 체계적으로 위임하기 위한 파이프라인: grill → divide → status → update-memory."
+    }
+  ]
+}
